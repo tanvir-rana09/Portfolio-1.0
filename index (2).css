@@ -1,0 +1,25 @@
+.port-heading{
+    padding-bottom: 50px;
+}
+.extra-heading{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.portfolio-templates{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-templates img{
+   height: 200px; 
+   width: auto;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.portfolio-templates img:hover{
+    transform: scale(1.1);
+}

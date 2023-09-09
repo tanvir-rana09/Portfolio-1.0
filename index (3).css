@@ -1,0 +1,67 @@
+.about-me_site{
+    padding-bottom: 50px;
+}
+.about-myself{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.tanvir-img img{
+    width: 390px;
+    border-radius: 10px;
+}
+.about-article-heading{
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 1.5rem;
+   
+}
+.extra-line{
+   margin: 0;
+    width: 80px;
+}
+.about-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.right-section h4{
+    margin-top: 25px;
+}
+.right-section span{
+    margin: 5px 0;
+    
+}
+.about-skills{
+    display: flex;
+    flex: 2;
+    margin-top: 100px;
+    padding: 20px;
+    gap: 20px;
+}
+.left-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.extra-btn{
+    width: 150px;
+    padding: 10px 5px;
+}
+.right-section{
+    flex: 1;
+}
+.extra-review{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.extra-review .service2{
+    
+    width: 100%;
+}
+

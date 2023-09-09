@@ -1,0 +1,187 @@
+/* media query start from here */
+@media screen and (max-width: 800px) {
+    
+    .heading{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footers-item{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    html,body{
+      overflow-x: hidden;
+    }
+    .second-head{
+        flex-direction: column;
+    }
+    .img-area img{
+       padding: 50px 100px;
+    }
+    .about-me{
+        flex-direction: column;
+        gap: 40px;
+        padding: 10px;
+    }
+    .all-services{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 2rem;
+        
+    }
+    .service, .service2{
+      margin: 20px auto;
+      width: 100%;
+    }
+    .service2{
+      margin: 20px auto;
+      width: 90%;
+    }
+    .one {
+        grid-column: 1 /8 ;
+        grid-row: 1;
+      }
+      .two {
+        grid-column: 1 / 8;
+        grid-row: 2;
+      }
+      .three {
+        grid-column: 1/8;
+        grid-row: 3;
+      }
+      .four {
+        grid-column: 1/8;
+        grid-row: 4;
+      }
+      .five {
+        grid-column: 1/8;
+        grid-row: 5;
+      }
+      .img-area img{
+       padding-bottom: 0;
+       margin-bottom: 0;
+      }
+      .about-article{
+        gap: 20px;
+      }
+      .about-skills{
+       flex-direction: column;
+       gap: 20px;
+
+      }
+      .left-section{
+        gap: 20px;
+      }
+      .extra-review{
+        flex-direction: column;
+      }
+      .contact-me2{
+        flex-direction: column;
+      }
+      .message-me{
+        gap: 50px;
+        margin-top: 50px;
+      }
+      .get-in-touch2 h3{
+        font-size:3rem;
+      }
+      #message-p{
+        margin-top: 20px;
+        line-height: 2rem;
+    }
+    .about-article .social-icon a i{
+      margin: 25px 7px;
+    }
+    .message-me .social-icon a i{
+      margin: 25px 7px;
+    }
+    .get-in-touch h3{
+      font-size: 2rem;
+  }
+  .about-me-section .btn{
+    margin-left: 9px;
+  }
+      
+}
+@media screen and (max-width: 1050px) {
+    .second-head_heading{
+        font-size: 2rem;
+    }
+    .about-myself{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .tanvir-img img{
+        margin:auto;
+        width: 330px;
+    }
+    .about-article{
+        gap: 20px;
+      }
+      .contact-add{
+        flex-direction: column;
+        gap: 40px;
+      }
+      .item3 a{
+      
+        padding: 10px;
+       
+    }
+
+    
+}
+
+@media screen and (min-width: 1500px) {
+    .second-head{
+        padding: 0 250px;
+    }
+    .computer img{
+        width: 80%;
+    }
+    .about-me-section{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .all-services{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .work-experience{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .stay-in input{
+        width: 60%;
+    }
+    .portfolio-project{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .about-myself, .about-skills{
+        width: 70%;
+        margin: 200px auto;
+    }
+    .extra-review{
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    .contact-me-final{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .footer-top, .portfolio-site{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .service2{
+      width: 100%;
+    }
+}
+/* media query end from here */
